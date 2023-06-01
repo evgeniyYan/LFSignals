@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  LFSignals
+
+  Created by Евгений Янушкевич on 31.05.2023.
+  
+*/
+"NSUserNotificationsUsageDescription" = "Terima sinyal tepat waktu dari instrumen perdagangan favorit Anda";
+"CFBundleDisplayName" = "Sinyal\U00A0forex";

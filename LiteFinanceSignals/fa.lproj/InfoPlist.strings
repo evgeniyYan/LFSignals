@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  LFSignals
+
+  Created by Евгений Янушкевич on 31.05.2023.
+  
+*/
+"NSUserNotificationsUsageDescription" = "سیگنال های به موقع را بر روی ابزارهای معاملااتی محبوب خود دریافت کنید";
+"CFBundleDisplayName" = "سیگنال\U00A0 های\U00A0 فارکس";
+

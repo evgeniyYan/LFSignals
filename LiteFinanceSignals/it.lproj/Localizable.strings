@@ -1,0 +1,92 @@
+/* 
+  Localizable.strings
+  LFSignals
+
+  Created by Евгений Янушкевич on 31.05.2023.
+  
+*/
+
+"Форекс сигналы" = "Segnali Forex";
+"Избранное" = "Preferiti";
+"Сигналы" = "Segnali";
+"Фильтр" = "Filtro";
+"Настройки" = "Impostazioni";
+"Осторожно покупать" = "Acquista con attenzione";
+"Покупать" = "Acquistare";
+"Активно покупать" = "Acquista attivamente";
+"Продавать" = "Vendere";
+"Осторожно продавать" = "vendi con attenzione";
+"Активно продавать" = "Vendi attivamente";
+"Подождать" = "Attesa";
+"Меньше минуты" = "Meno di un minuto";
+"Больше месяца" = "Più di un mese";
+"Назад" = "Di ritorno";
+"Новый" = "Nuovo";
+"Валюты" = "Valute";
+"Криптовалюты" = "Criptovalute";
+"Металлы и нефть" = "Metalli e petrolio";
+"Акции" = "Azione";
+"Биржевые индексы" = "Indici azionari";
+"Свайп для смены типа инструмента" = "Scorri per cambiare il tipo di strumento";
+"Клик по карточке для подробностей" = "Clicca sulla scheda per i dettagli";
+"Таймфрейм сигнала" = "Tempo del segnale";
+"Время сигнала" = "Tempo del segnale";
+"Таймфрейм" = "Lasso di tempo";
+"Купить" = "Acquistare";
+"Продать" = "Vendere";
+"Индикаторы" = "Indicatori";
+"Выбран" = "Selezionato";
+"Скрыт" = "È nascosto";
+"Торговые инструменты" = "Strumenti di trading";
+"Применить" = "Applicare";
+"Рекомендации" = "Raccomandazioni";
+"Вы можете уточнить список" = "Puoi perfezionare l'elenco";
+"Здесь ничего нет" = "Non c'è niente qui";
+"Время" = "Tempo";
+"Использовать системное время" = "Usa l'ora di sistema";
+"Обновление сигналов" = "Aggiornamento del segnale";
+"Push-уведомления от избранного" = "Notifiche push dai preferiti";
+"Получать уведомления с рекомендациями" = "Ricevi notifiche con consigli";
+"Оформление" = "Registrazione";
+"Системное" = "Sistemico";
+"Светлое" = "Leggero";
+"Тёмное" = "Buio";
+"Подсказки" = "Suggerimenti";
+"Язык" = "Lingua";
+"Ошибка загрузки. Проверьте подключение к сети." = "Errore di caricamento. Controlla la tua connessione di rete.";
+"Повторить попытку" = "Per riprovare";
+"1 минута" = "1 minuto";
+"5 минут" = "5 minuti";
+"dop time " = "";
+"назад)" = ")";
+"минуту" = "minuto";
+"минуты" = "minuti";
+"минут" = "minuti";
+"15 минут" = "15 minuti";
+"Включить" = "Accendere";
+"Выключить" = "Spegni";
+"Больше минуты" = "Più di un minuto";
+"Новый сигнал" = "Nuovo segnale";
+" " = "";
+"Push-уведомления " = "Messaggistica";
+"Получайте своевременные сигналы от избранных торговых инструментов" = "Riceva i segnali tempestivi da strumenti di trading selezionati";
+"Включить уведомления" = "Attivare le notifiche";
+"Отмена" = "Annullamento";
+"Сбросить всё" = "Azzerare tutto";
+"Ошибка загрузки. Проверьте подключение к сети. " = "Errore di caricamento. Controlli la connessione di rete.";
+"Обновить" = "Aggiornare";
+"добавлено в избранное" = "Aggiunto ai Preferiti";
+"Найти торговый инструмент" = "Trovare uno strumento di trading";
+"Здесь ещё нет сигналов" = "Non ci sono ancora segnali qui";
+"Чтобы начать торговлю, на экране \"Ещё\" нажмите на кнопку \"Включить реальную торговлю\"" = "Per iniziare a fare trading, nella schermata \"Altro\", faccia clic sul pulsante \"Abilita trading dal vivo\".";
+"Чтобы начать копирование, на экране \"Ещё\" нажмите на кнопку \"Включить реальную торговлю\"" = "Per iniziare a copiare, nella schermata \"Altro\", faiccia clic sul pulsante \"Abilita trading dal vivo\".";
+"Рынок открыт" = "Il mercato è aperto";
+"Информация" = "Informazioni";
+"Автообновление сигналов" = "Aggiornamento automatico dei signali";
+"По запросу ничего не найдено" = "La ricerca non ha trovato un prodotto corrispondente";
+"Удалено из избранного" = "Rimosso dai Preferiti";
+
+
+
+
+

@@ -1,0 +1,997 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "01D24FEF-9639-44AB-B6BA-03EB4BD086D3"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C525F5CF-F43E-4100-8871-7EBF986279E4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LFSignals/SettingsModule/View/SettingsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "viewDidLayoutSubviews()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C525F5CF-F43E-4100-8871-7EBF986279E4 - 688ea59ecb8ffe39"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LFSignals.SettingsViewController.viewDidLayoutSubviews() -&gt; ()"
+                  moduleName = "LFSignals"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/evgenijanuskevic/Desktop/LiteFinance%20Signals/LiteFinanceSignals/LFSignals/LFSignals/SettingsModule/View/SettingsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "660">
+               </Location>
+               <Location
+                  uuid = "C525F5CF-F43E-4100-8871-7EBF986279E4 - 688ea59ecb8ffe39"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LFSignals.SettingsViewController.viewDidLayoutSubviews() -&gt; ()"
+                  moduleName = "LFSignals"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/evgenijanuskevic/Desktop/LiteFinance%20Signals/LiteFinanceSignals/LFSignals/LFSignals/SettingsModule/View/SettingsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "664">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F3BD3BF8-69E2-4D78-9D41-7909016F5ED2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LFSignals/API/API.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "createIconURL(icon:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F3BD3BF8-69E2-4D78-9D41-7909016F5ED2 - 3e34ff195cc86a10"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LFSignals.API.createIconURL(icon: Swift.String) -&gt; Swift.String"
+                  moduleName = "LFSignals"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/evgenijanuskevic/Desktop/LiteFinance%20Signals/LiteFinanceSignals/LFSignals/LFSignals/API/API.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "1696">
+               </Location>
+               <Location
+                  uuid = "F3BD3BF8-69E2-4D78-9D41-7909016F5ED2 - 8827449cd1d2a961"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static LFSignals.API.createIconURL(icon: Swift.String) -&gt; Swift.String"
+                  moduleName = "LFSignals"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/evgenijanuskevic/Desktop/LiteFinance%20Signals/LiteFinanceSignals/LFSignals/LFSignals/API/API.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "1696">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3DB5F423-08F5-4AAB-B8A1-1CC46D27760E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LFSignals/API/API.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "createIconURL(icon:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3DB5F423-08F5-4AAB-B8A1-1CC46D27760E - 3e34ff195cc86b94"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LFSignals.API.createIconURL(icon: Swift.String) -&gt; Swift.String"
+                  moduleName = "LFSignals"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/evgenijanuskevic/Desktop/LiteFinance%20Signals/LiteFinanceSignals/LFSignals/LFSignals/API/API.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "1220">
+               </Location>
+               <Location
+                  uuid = "3DB5F423-08F5-4AAB-B8A1-1CC46D27760E - 8827449cd1d2a8e5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static LFSignals.API.createIconURL(icon: Swift.String) -&gt; Swift.String"
+                  moduleName = "LFSignals"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/evgenijanuskevic/Desktop/LiteFinance%20Signals/LiteFinanceSignals/LFSignals/LFSignals/API/API.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "1220">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "765E029B-041F-4BB2-BC05-95C6A4D91051"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LFSignals/API/API.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "createIconURL(icon:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "765E029B-041F-4BB2-BC05-95C6A4D91051 - 3e34ff195cc86bd6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LFSignals.API.createIconURL(icon: Swift.String) -&gt; Swift.String"
+                  moduleName = "LFSignals"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/evgenijanuskevic/Desktop/LiteFinance%20Signals/LiteFinanceSignals/LFSignals/LFSignals/API/API.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "984">
+               </Location>
+               <Location
+                  uuid = "765E029B-041F-4BB2-BC05-95C6A4D91051 - 8827449cd1d2a8a7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static LFSignals.API.createIconURL(icon: Swift.String) -&gt; Swift.String"
+                  moduleName = "LFSignals"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/evgenijanuskevic/Desktop/LiteFinance%20Signals/LiteFinanceSignals/LFSignals/LFSignals/API/API.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "984">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "66D44A8A-1A37-46EA-BB4C-B4387A71383C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LFSignals/SignalsModule/View/ChildViews/CurrencyChild/View/CurrencyViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "172"
+            endingLineNumber = "172"
+            landmarkName = "configure(title:time:color:new:difTime:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "66D44A8A-1A37-46EA-BB4C-B4387A71383C - a5116e2b163e3cfb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LFSignals.CurrencyViewCell.configure(title: Swift.String, time: Swift.String, color: Swift.Array&lt;__C.UIColor&gt;, new: Swift.Bool, difTime: Swift.String) -&gt; ()"
+                  moduleName = "LFSignals"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/evgenijanuskevic/Desktop/LiteFinance%20Signals/LiteFinanceSignals/LFSignals/LFSignals/SignalsModule/View/ChildViews/CurrencyChild/View/CurrencyViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "173"
+                  endingLineNumber = "173"
+                  offsetFromSymbolStart = "788">
+               </Location>
+               <Location
+                  uuid = "66D44A8A-1A37-46EA-BB4C-B4387A71383C - 8d70d74c3f6dca65"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in LFSignals.CurrencyViewCell.configure(title: Swift.String, time: Swift.String, color: Swift.Array&lt;__C.UIColor&gt;, new: Swift.Bool, difTime: Swift.String) -&gt; ()"
+                  moduleName = "LFSignals"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/evgenijanuskevic/Desktop/LiteFinance%20Signals/LiteFinanceSignals/LFSignals/LFSignals/SignalsModule/View/ChildViews/CurrencyChild/View/CurrencyViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "174"
+                  endingLineNumber = "174"
+                  offsetFromSymbolStart = "84">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "042F218E-D281-456E-A966-2BF180254DA4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LFSignals/SignalsModule/SignalsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "042F218E-D281-456E-A966-2BF180254DA4 - e154c895434d17d0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (__C.NSTimer) -&gt; () in LFSignals.SignalsViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "LFSignals"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/evgenijanuskevic/Desktop/LiteFinance%20Signals/LiteFinanceSignals/LFSignals/LFSignals/SignalsModule/SignalsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "042F218E-D281-456E-A966-2BF180254DA4 - e154c895434d17d0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (__C.NSTimer) -&gt; () in LFSignals.SignalsViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "LFSignals"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/evgenijanuskevic/Desktop/LiteFinance%20Signals/LiteFinanceSignals/LFSignals/LFSignals/SignalsModule/SignalsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "042F218E-D281-456E-A966-2BF180254DA4 - e154c895434d17bf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (__C.NSTimer) -&gt; () in LFSignals.SignalsViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "LFSignals"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/evgenijanuskevic/Desktop/LiteFinance%20Signals/LiteFinanceSignals/LFSignals/LFSignals/SignalsModule/SignalsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "73"
+                  endingLineNumber = "73"
+                  offsetFromSymbolStart = "104">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "13D7478D-71B2-4377-B81A-C2F13581F129"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LFSignals/SignalsModule/SignalsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "01590942-004A-4443-B301-9A8BFD13ABDB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LFSignals/SignalsModule/Presenter/SignalsPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "309"
+            endingLineNumber = "309"
+            landmarkName = "timerUpdate(time:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6BB66B18-4669-4CD2-A5A9-717C5E5DDFE0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LFSignals/SettingsModule/Presenter/SettingsPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
+            landmarkName = "delegateTimerRepeat(text:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6BB66B18-4669-4CD2-A5A9-717C5E5DDFE0 - 8a54a01e95dc126c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LFSignals.SettingsPresenter.delegateTimerRepeat(text: Swift.String) -&gt; ()"
+                  moduleName = "LFSignals"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/evgenijanuskevic/Desktop/LiteFinance%20Signals/LiteFinanceSignals/LFSignals/LFSignals/SettingsModule/Presenter/SettingsPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "111"
+                  endingLineNumber = "111"
+                  offsetFromSymbolStart = "1396">
+               </Location>
+               <Location
+                  uuid = "6BB66B18-4669-4CD2-A5A9-717C5E5DDFE0 - 8a54a01e95dc126c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LFSignals.SettingsPresenter.delegateTimerRepeat(text: Swift.String) -&gt; ()"
+                  moduleName = "LFSignals"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/evgenijanuskevic/Desktop/LiteFinance%20Signals/LiteFinanceSignals/LFSignals/LFSignals/SettingsModule/Presenter/SettingsPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "111"
+                  endingLineNumber = "111"
+                  offsetFromSymbolStart = "1336">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CAC01B4E-FB79-4EB9-BC79-4F08B18116DD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LFSignals/SignalsModule/Presenter/SignalsPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "298"
+            endingLineNumber = "298"
+            landmarkName = "timerUpdate(time:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CAC01B4E-FB79-4EB9-BC79-4F08B18116DD - 17c588ed8899fd7b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LFSignals.SignalsPresenter.timerUpdate(time: Swift.Double) -&gt; ()"
+                  moduleName = "LFSignals"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/evgenijanuskevic/Desktop/LiteFinance%20Signals/LiteFinanceSignals/LFSignals/LFSignals/SignalsModule/Presenter/SignalsPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "298"
+                  endingLineNumber = "298"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "CAC01B4E-FB79-4EB9-BC79-4F08B18116DD - 17c588ed8899fd7b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LFSignals.SignalsPresenter.timerUpdate(time: Swift.Double) -&gt; ()"
+                  moduleName = "LFSignals"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/evgenijanuskevic/Desktop/LiteFinance%20Signals/LiteFinanceSignals/LFSignals/LFSignals/SignalsModule/Presenter/SignalsPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "298"
+                  endingLineNumber = "298"
+                  offsetFromSymbolStart = "296">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4B1AE6F7-86ED-4A38-9A39-9295F1F07480"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LFSignals/SignalsModule/Presenter/SignalsPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "307"
+            endingLineNumber = "307"
+            landmarkName = "timerUpdate(time:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4B1AE6F7-86ED-4A38-9A39-9295F1F07480 - 17c588ed8899ff8c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LFSignals.SignalsPresenter.timerUpdate(time: Swift.Double) -&gt; ()"
+                  moduleName = "LFSignals"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/evgenijanuskevic/Desktop/LiteFinance%20Signals/LiteFinanceSignals/LFSignals/LFSignals/SignalsModule/Presenter/SignalsPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "307"
+                  endingLineNumber = "307"
+                  offsetFromSymbolStart = "1288">
+               </Location>
+               <Location
+                  uuid = "4B1AE6F7-86ED-4A38-9A39-9295F1F07480 - 698997c7f699bc8e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (__C.NSTimer) -&gt; () in LFSignals.SignalsPresenter.timerUpdate(time: Swift.Double) -&gt; ()"
+                  moduleName = "LFSignals"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/evgenijanuskevic/Desktop/LiteFinance%20Signals/LiteFinanceSignals/LFSignals/LFSignals/SignalsModule/Presenter/SignalsPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "308"
+                  endingLineNumber = "308"
+                  offsetFromSymbolStart = "108">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0BADF3B4-34E0-4AF2-9E64-ADADD4250438"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LFSignals/SignalsModule/Presenter/SignalsPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "310"
+            endingLineNumber = "310"
+            landmarkName = "timerUpdate(time:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6724BF82-CB4F-46B3-935A-5B2658C8DDE3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LFSignals/SceneDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "scene(_:willConnectTo:options:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6724BF82-CB4F-46B3-935A-5B2658C8DDE3 - f6642f7fee958e81"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LFSignals.SceneDelegate.scene(_: __C.UIScene, willConnectTo: __C.UISceneSession, options: __C.UISceneConnectionOptions) -&gt; ()"
+                  moduleName = "LFSignals"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/evgenijanuskevic/Desktop/LiteFinance%20Signals/LiteFinanceSignals/LFSignals/LFSignals/SceneDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "75"
+                  endingLineNumber = "75"
+                  offsetFromSymbolStart = "7092">
+               </Location>
+               <Location
+                  uuid = "6724BF82-CB4F-46B3-935A-5B2658C8DDE3 - b6fda71e74676201"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (__C.NSTimer) -&gt; () in LFSignals.SceneDelegate.scene(_: __C.UIScene, willConnectTo: __C.UISceneSession, options: __C.UISceneConnectionOptions) -&gt; ()"
+                  moduleName = "LFSignals"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/evgenijanuskevic/Desktop/LiteFinance%20Signals/LiteFinanceSignals/LFSignals/LFSignals/SceneDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "40">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "451FE9D8-D3E4-4BB9-8DFC-840F9380C96A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LFSignals/SceneDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "scene(_:willConnectTo:options:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4E197F32-00C4-4C3B-9D46-6AECD44ED159"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LFSignals/CustomNavigation/BarModule/CustomBar.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "init(view:title:filterButton:searchButton:rangeButton:router:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4E197F32-00C4-4C3B-9D46-6AECD44ED159 - 95212ff795bf12af"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LFSignals.CustomBar.init(view: __C.UIViewController, title: Swift.String, filterButton: Swift.Bool, searchButton: Swift.Bool, rangeButton: Swift.Bool, router: LFSignals.RouterProtocol) -&gt; LFSignals.CustomBar"
+                  moduleName = "LFSignals"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/evgenijanuskevic/Desktop/LiteFinance%20Signals/LiteFinanceSignals/LFSignals/LFSignals/CustomNavigation/BarModule/CustomBar.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "88"
+                  endingLineNumber = "88"
+                  offsetFromSymbolStart = "2616">
+               </Location>
+               <Location
+                  uuid = "4E197F32-00C4-4C3B-9D46-6AECD44ED159 - 95212ff795bf12af"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LFSignals.CustomBar.init(view: __C.UIViewController, title: Swift.String, filterButton: Swift.Bool, searchButton: Swift.Bool, rangeButton: Swift.Bool, router: LFSignals.RouterProtocol) -&gt; LFSignals.CustomBar"
+                  moduleName = "LFSignals"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/evgenijanuskevic/Desktop/LiteFinance%20Signals/LiteFinanceSignals/LFSignals/LFSignals/CustomNavigation/BarModule/CustomBar.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "88"
+                  endingLineNumber = "88"
+                  offsetFromSymbolStart = "2636">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "27C158EF-5247-4261-B9F2-31778F95EA69"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LFSignals/CustomNavigation/BarModule/CustomBar.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "95"
+            endingLineNumber = "95"
+            landmarkName = "init(view:title:filterButton:searchButton:rangeButton:router:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "27C158EF-5247-4261-B9F2-31778F95EA69 - 95212ff795bf1586"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LFSignals.CustomBar.init(view: __C.UIViewController, title: Swift.String, filterButton: Swift.Bool, searchButton: Swift.Bool, rangeButton: Swift.Bool, router: LFSignals.RouterProtocol) -&gt; LFSignals.CustomBar"
+                  moduleName = "LFSignals"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/evgenijanuskevic/Desktop/LiteFinance%20Signals/LiteFinanceSignals/LFSignals/LFSignals/CustomNavigation/BarModule/CustomBar.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "5680">
+               </Location>
+               <Location
+                  uuid = "27C158EF-5247-4261-B9F2-31778F95EA69 - 95212ff795bf1544"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LFSignals.CustomBar.init(view: __C.UIViewController, title: Swift.String, filterButton: Swift.Bool, searchButton: Swift.Bool, rangeButton: Swift.Bool, router: LFSignals.RouterProtocol) -&gt; LFSignals.CustomBar"
+                  moduleName = "LFSignals"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/evgenijanuskevic/Desktop/LiteFinance%20Signals/LiteFinanceSignals/LFSignals/LFSignals/CustomNavigation/BarModule/CustomBar.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "95"
+                  endingLineNumber = "95"
+                  offsetFromSymbolStart = "5740">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2109B69C-B665-40F3-B1BC-C6C5AF2CDFB9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LFSignals/FilterModule/Presenter/FilterPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "232"
+            endingLineNumber = "232"
+            landmarkName = "doubleClickButtonType(sender:arr:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2B72E4F9-9AC7-468D-B52A-12B6615C5144"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LFSignals/FilterModule/Presenter/FilterPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "234"
+            endingLineNumber = "234"
+            landmarkName = "FilterPresenter"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6EE5D11F-2F3B-4935-AFCA-AC871C5FA7DD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LFSignals/SignalsModule/SignalsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6EE5D11F-2F3B-4935-AFCA-AC871C5FA7DD - b5291c49e0ac3d81"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LFSignals.SignalsViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "LFSignals"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/evgenijanuskevic/Desktop/LiteFinance%20Signals/LiteFinanceSignals/LFSignals/LFSignals/SignalsModule/SignalsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "1340">
+               </Location>
+               <Location
+                  uuid = "6EE5D11F-2F3B-4935-AFCA-AC871C5FA7DD - b5291c49e0ac3c60"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LFSignals.SignalsViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "LFSignals"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/evgenijanuskevic/Desktop/LiteFinance%20Signals/LiteFinanceSignals/LFSignals/LFSignals/SignalsModule/SignalsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "940">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0AAD3C93-5E21-4C05-907D-51F30087F13B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LFSignals/SignalsModule/SignalsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0AAD3C93-5E21-4C05-907D-51F30087F13B - b5291c49e0ac3c89"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LFSignals.SignalsViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "LFSignals"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/evgenijanuskevic/Desktop/LiteFinance%20Signals/LiteFinanceSignals/LFSignals/LFSignals/SignalsModule/SignalsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "2024">
+               </Location>
+               <Location
+                  uuid = "0AAD3C93-5E21-4C05-907D-51F30087F13B - b5291c49e0ac3cec"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LFSignals.SignalsViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "LFSignals"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/evgenijanuskevic/Desktop/LiteFinance%20Signals/LiteFinanceSignals/LFSignals/LFSignals/SignalsModule/SignalsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "1784">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F0491183-6671-4CD0-B30F-C6B92FD3984C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LFSignals/SignalsModule/SignalsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F0491183-6671-4CD0-B30F-C6B92FD3984C - b5291c49e0ac3fd4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LFSignals.SignalsViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "LFSignals"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/evgenijanuskevic/Desktop/LiteFinance%20Signals/LiteFinanceSignals/LFSignals/LFSignals/SignalsModule/SignalsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "2636">
+               </Location>
+               <Location
+                  uuid = "F0491183-6671-4CD0-B30F-C6B92FD3984C - b5291c49e0ac3ff5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LFSignals.SignalsViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "LFSignals"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/evgenijanuskevic/Desktop/LiteFinance%20Signals/LiteFinanceSignals/LFSignals/LFSignals/SignalsModule/SignalsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "2380">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F68A0310-2BB9-470F-AF5E-18F23E30036D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LFSignals/FilterModule/View/FilterViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "215"
+            endingLineNumber = "215"
+            landmarkName = "viewWillLayoutSubviews()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F68A0310-2BB9-470F-AF5E-18F23E30036D - 499ddd0d4c31b360"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LFSignals.FilterViewController.viewWillLayoutSubviews() -&gt; ()"
+                  moduleName = "LFSignals"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/evgenijanuskevic/Desktop/LiteFinance%20Signals/LiteFinanceSignals/LFSignals/LFSignals/FilterModule/View/FilterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "215"
+                  endingLineNumber = "215"
+                  offsetFromSymbolStart = "144">
+               </Location>
+               <Location
+                  uuid = "F68A0310-2BB9-470F-AF5E-18F23E30036D - 499ddd0d4c31b360"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LFSignals.FilterViewController.viewWillLayoutSubviews() -&gt; ()"
+                  moduleName = "LFSignals"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/evgenijanuskevic/Desktop/LiteFinance%20Signals/LiteFinanceSignals/LFSignals/LFSignals/FilterModule/View/FilterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "215"
+                  endingLineNumber = "215"
+                  offsetFromSymbolStart = "360">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "04B2AA3A-B05C-41A8-BDB6-FDA16517AE0E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LFSignals/FilterModule/View/FilterViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "280"
+            endingLineNumber = "280"
+            landmarkName = "scrollViewDidScroll(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1B5C9C93-49FF-411C-811D-A9F8D9690273"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LFSignals/FilterModule/View/FilterViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "284"
+            endingLineNumber = "284"
+            landmarkName = "scrollViewDidScroll(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FBDB5ED1-8B3E-4B52-AB8E-1832ABC1D9E0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LFSignals/FilterModule/View/FilterViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "285"
+            endingLineNumber = "285"
+            landmarkName = "scrollViewDidScroll(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FBDB5ED1-8B3E-4B52-AB8E-1832ABC1D9E0 - 3eaec45d9f113781"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in LFSignals.FilterViewController.scrollViewDidScroll(__C.UIScrollView) -&gt; ()"
+                  moduleName = "LFSignals"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/evgenijanuskevic/Desktop/LiteFinance%20Signals/LiteFinanceSignals/LFSignals/LFSignals/FilterModule/View/FilterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "285"
+                  endingLineNumber = "285"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "FBDB5ED1-8B3E-4B52-AB8E-1832ABC1D9E0 - 3a0b13de656df031"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LFSignals.FilterViewController.scrollViewDidScroll(__C.UIScrollView) -&gt; ()"
+                  moduleName = "LFSignals"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/evgenijanuskevic/Desktop/LiteFinance%20Signals/LiteFinanceSignals/LFSignals/LFSignals/FilterModule/View/FilterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "285"
+                  endingLineNumber = "285"
+                  offsetFromSymbolStart = "636">
+               </Location>
+               <Location
+                  uuid = "FBDB5ED1-8B3E-4B52-AB8E-1832ABC1D9E0 - 3a0b13de656df031"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LFSignals.FilterViewController.scrollViewDidScroll(__C.UIScrollView) -&gt; ()"
+                  moduleName = "LFSignals"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/evgenijanuskevic/Desktop/LiteFinance%20Signals/LiteFinanceSignals/LFSignals/LFSignals/FilterModule/View/FilterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "285"
+                  endingLineNumber = "285"
+                  offsetFromSymbolStart = "640">
+               </Location>
+               <Location
+                  uuid = "FBDB5ED1-8B3E-4B52-AB8E-1832ABC1D9E0 - 3a0b13de656df031"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LFSignals.FilterViewController.scrollViewDidScroll(__C.UIScrollView) -&gt; ()"
+                  moduleName = "LFSignals"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/evgenijanuskevic/Desktop/LiteFinance%20Signals/LiteFinanceSignals/LFSignals/LFSignals/FilterModule/View/FilterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "285"
+                  endingLineNumber = "285"
+                  offsetFromSymbolStart = "672">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

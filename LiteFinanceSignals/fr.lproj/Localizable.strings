@@ -1,0 +1,384 @@
+/* 
+  Localizable.strings
+  LFSignals
+
+  Created by Евгений Янушкевич on 31.05.2023.
+  
+*/
+
+"Форекс сигналы" = "Signaux Forex";
+"Избранное" = "Favoris";
+"Сигналы" = "Signaux";
+"Фильтр" = "Filtre";
+"Настройки" = "Paramètres";
+"Осторожно покупать" = "Acheter prudemment";
+"Покупать" = "Acheter";
+"Активно покупать" = "Achat actif";
+"Продавать" = "Vendre";
+"Осторожно продавать" = "Vendre prudemment";
+"Активно продавать" = "Vente active";
+"Подождать" = "Attendre";
+"Меньше минуты" = "Moins d'une minute";
+"Больше месяца" = "Plus d'un mois";
+"Назад" = "Retour";
+"Новый" = "Nouveau";
+"Валюты" = "Monnaies";
+"Криптовалюты" = "Monnaies virtuelles";
+"Металлы и нефть" = "Métaux et pétrole";
+"Акции" = "Actions";
+"Биржевые индексы" = "Indices boursiers";
+"Свайп для смены типа инструмента" = "Faites glisser pour changer d'instrument";
+"Клик по карточке для подробностей" = "Cliquez pour détails";
+"Таймфрейм сигнала" = "Unité de temps pour signal";
+"Время сигнала" = "Temps de signal";
+"Таймфрейм" = "Unité de temps";
+"Купить" = "Acheter";
+"Продать" = "Vendre";
+"Индикаторы" = "Indicateurs";
+"Выбран" = "Choisi";
+"Скрыт" = "Caché";
+"Торговые инструменты" = "Instruments de trading";
+"Применить" = "Appliquer";
+"Рекомендации" = "Recommandations";
+"Вы можете уточнить список" = "Vous pouvez préciser la liste";
+"Здесь ничего нет" = "Vide";
+"Время" = "Temps";
+"Использовать системное время" = "Utiliser temps système";
+"Обновление сигналов" = "Actualisation de signaux";
+"Push-уведомления от избранного" = "Notifications Push des Favoris";
+"Получать уведомления с рекомендациями" = "Recevoir conseils push";
+"Оформление" = "Affichage";
+"Системное" = "Par défaut";
+"Светлое" = "Clair";
+"Тёмное" = "Sombre";
+"Подсказки" = "Astuces";
+"Язык" = "Langue";
+"Ошибка загрузки. Проверьте подключение к сети." = "Erreur de téléchargement. Veuillez vérifier votre connexion.";
+"Повторить попытку" = "Réessayer";
+"1 минута" = "1 minute";
+"5 минут" = "5 minutes";
+"dop time " = "";
+"назад)" = ")";
+"минута" = "minutes";
+"минуты" = "minutes";
+"минуту" = "minutes";
+"минут" = "minutes";
+"15 минут" = "15 minutes";
+"Включить" = "Activer";
+"Выключить" = "Désactiver";
+"Больше минуты" = "Plus d'une minute";
+"Новый сигнал" = "Nouveau signal";
+" " = "";
+"Push-уведомления " = "Notifications Push";
+"Получайте своевременные сигналы от избранных торговых инструментов" = "Recevez des notifications opportunes de vos instruments de trading favoris";
+"Включить уведомления" = "Activer notifications";
+"Отмена" = "Annuler";
+"Сбросить всё" = "Réinitialiser tout";
+"Ошибка загрузки. Проверьте подключение к сети. " = "Erreur de téléchargement. Veuillez vérifier votre connexion.";
+"Обновить" = "Actualiser";
+"добавлено в избранное" = "ajouté aux favoris";
+"Найти торговый инструмент" = "Chercher un instrument de trading";
+"Здесь ещё нет сигналов" = "Aucun signal n'est encore disponible";
+"Чтобы начать торговлю, на экране \"Ещё\" нажмите на кнопку \"Включить реальную торговлю\"" = "Pour commencer à trader, cliquez sur « Activer trading réel » sur l'écran « Plus ».";
+"Чтобы начать копирование, на экране \"Ещё\" нажмите на кнопку \"Включить реальную торговлю\"" = "Pour commencer à copier, cliquez sur « Activer trading réel » sur l'écran « Plus ».";
+"Рынок открыт" = "Le marché est ouvert";
+"Информация" = "Information";
+"Автообновление сигналов" = "Mise à jour automatique";
+"По запросу ничего не найдено" = "Votre recherche n'a donné aucun résultat";
+"Удалено из избранного" = "Retiré des favoris";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

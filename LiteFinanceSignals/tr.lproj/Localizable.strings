@@ -1,0 +1,140 @@
+/* 
+  Localizable.strings
+  LFSignals
+
+  Created by Евгений Янушкевич on 31.05.2023.
+  
+*/
+"Форекс сигналы" = "Forex sinyalleri";
+"Избранное" = "Favoriler";
+"Сигналы" = "Sinyaller";
+"Фильтр" = "Filtrele";
+"Настройки" = "Ayarlar";
+"Осторожно покупать" = "Temkinli al";
+"Покупать" = "Al";
+"Активно покупать" = "Aktif Al";
+"Продавать" = "Sat";
+"Осторожно продавать" = "Temkinli sat";
+"Активно продавать" = "Aktif Sat";
+"Подождать" = "Bekle";
+"Меньше минуты" = "1 dakikadan kısa";
+"Больше месяца" = "1 aydan uzun";
+"Назад" = "Geri";
+"Новый" = "Yeni";
+"Валюты" = "Dövizler";
+"Криптовалюты" = "Kriptolar";
+"Металлы и нефть" = "Metaller ve petrol";
+"Акции" = "Hisse senetleri";
+"Биржевые индексы" = "Borsa endeksleri";
+"Свайп для смены типа инструмента" = "Yatırım aracı değiştirmek için ekranı kaydır";
+"Клик по карточке для подробностей" = "Detaylar için tıkla";
+"Таймфрейм сигнала" = "Sinyal zaman aralığı";
+"Время сигнала" = "Sinyal saati";
+"Таймфрейм" = "Zaman aralığı";
+"Купить" = "Al";
+"Продать" = "Sat";
+"Индикаторы" = "Göstergeler";
+"Выбран" = "Seçildi";
+"Скрыт" = "Gizlendi";
+"Торговые инструменты" = "Yatırım araçları";
+"Применить" = "Uygula";
+"Рекомендации" = "Öneri";
+"Вы можете уточнить список" = "Bu listeyi tanımlayabilirsiniz";
+"Здесь ничего нет" = "Burası boş";
+"Время" = "Saat";
+"Использовать системное время" = "Sistem saatini kullan";
+"Обновление сигналов" = "Sinyallerin güncellemesi";
+"Push-уведомления от избранного" = "Favorilerden anlık uyarılar";
+"Получать уведомления с рекомендациями" = "İpuçları ile birlikte uyarılar alın";
+"Оформление" = "Görünüm";
+"Системное" = "Varsayılan";
+"Светлое" = "Beyaz";
+"Тёмное" = "Siyah";
+"Подсказки" = "İpuçları";
+"Язык" = "Dil";
+"Ошибка загрузки. Проверьте подключение к сети." = "İndirme hatası İnternetin bağlantınızı kontrol edin";
+"Повторить попытку" = "Tekrar deneyin";
+"1 минута" = "1 dakika";
+"5 минут" = "5 dakika";
+"dop time " = "";
+"назад)" = ")";
+"минута" = "dakika";
+"минуты" = "dakika";
+"минуту" = "dakika";
+"минут" = "dakika";
+"15 минут" = "15 dakika";
+"Включить" = "Aç";
+"Выключить" = "Kapat";
+"Больше минуты" = "1 dakikadan uzun";
+"Новый сигнал" = "Yeni Sinyal";
+" " = "";
+"Push-уведомления " = "Anlık bildirimler";
+"Получайте своевременные сигналы от избранных торговых инструментов" = "En sevdiğiniz yatırım araçlarından zamanında sinyaller alın";
+"Включить уведомления" = "Bildirimleri aç";
+"Отмена" = "İptal";
+"Сбросить всё" = "Tümünü sıfırla";
+"Ошибка загрузки. Проверьте подключение к сети. " = "İndirme hatası. İnternet bağlantısını kontrol edin.";
+"Обновить" = "Yenile";
+"добавлено в избранное" = "favorilere eklendi";
+"Найти торговый инструмент" = "Bir yatırım aracı ara";
+"Здесь ещё нет сигналов" = "Henüz hiçbir sinyal yok";
+"Чтобы начать торговлю, на экране \"Ещё\" нажмите на кнопку \"Включить реальную торговлю\"" = "İşlem yapmaya başlamak için \"Diğer\" ekranında \"Gerçek işlemleri etkinleştir\" ögesine tıklayın.";
+"Чтобы начать копирование, на экране \"Ещё\" нажмите на кнопку \"Включить реальную торговлю\"" = "İşlem kopyalamaya başlamak için \"Diğer\" ekranında \"Gerçek işlemleri etkinleştir\" ögesine tıklayın.";
+"Рынок открыт" = "Piyasa açık";
+"Информация" = "Bilgi";
+"Автообновление сигналов" = "Sinyalleri otomatik güncelle";
+"По запросу ничего не найдено" = "Hiçbir sonuç bulunamadı";
+"Удалено из избранного" = "Favorilerden çıkarıldı";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

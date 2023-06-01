@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  LFSignals
+
+  Created by Евгений Янушкевич on 31.05.2023.
+  
+*/
+"NSUserNotificationsUsageDescription" = "좋아하는 거래 도구에서 시기적절한 신호 수신";
+"CFBundleDisplayName" = "외환\U00A0신호"; 

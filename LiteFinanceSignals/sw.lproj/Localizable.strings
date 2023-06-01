@@ -1,0 +1,144 @@
+/* 
+  Localizable.strings
+  LFSignals
+
+  Created by Евгений Янушкевич on 31.05.2023.
+  
+*/
+"Форекс сигналы" = "Ishara za Forex";
+"Избранное" = "Vipendwa";
+"Сигналы" = "Ishara";
+"Фильтр" = "Chujio";
+"Настройки" = "Mipangilio";
+"Осторожно покупать" = "Nunua kwa uangalifu";
+"Покупать" = "Nunua";
+"Активно покупать" = "Nunua Inayotumika";
+"Продавать" = "Uza";
+"Осторожно продавать" = "Tahadhari kuuza";
+"Активно продавать" = "Uuzaji Inayotumika";
+"Подождать" = "Subiri";
+"Меньше минуты" = "Chini ya dakika 1";
+"Больше месяца" = "Zaidi ya mwezi 1";
+"Назад" = "Nyuma";
+"Новый" = "Mpya";
+"Валюты" = "Sarafu";
+"Криптовалюты" = "Cryptos";
+"Металлы и нефть" = "Vyuma na mafuta";
+"Акции" = "Hisa";
+"Биржевые индексы" = "Viashiria vya hisa";
+"Свайп для смены типа инструмента" = "Telezesha kidole ili kubadilisha chombo";
+"Клик по карточке для подробностей" = "Bofya kwa maelezo";
+"Таймфрейм сигнала" = "Muda wa mawimbi";
+"Время сигнала" = "Wakati wa mawimbi";
+"Таймфрейм" = "Muda";
+"Купить" = "Nunua";
+"Продать" = "Uza";
+"Индикаторы" = "Viashiria";
+"Выбран" = "Imechaguliwa";
+"Скрыт" = "Imefichwa";
+"Торговые инструменты" = "Vyombo vya biashara";
+"Применить" = "Omba / Weka";
+"Рекомендации" = "Ushauri";
+"Вы можете уточнить список" = "Unaweza kufafanua orodha";
+"Здесь ничего нет" = "Ni tupu hapa";
+"Время" = "Muda";
+"Использовать системное время" = "Tumia wakati wa mfumo";
+"Обновление сигналов" = "Usasishaji wa ishara";
+"Push-уведомления от избранного" = "Bonyeza arifa kutoka kwa vipendwa";
+"Получать уведомления с рекомендациями" = "Pata arifa na vidokezo";
+"Оформление" = "Mwonekano";
+"Системное" = "Chaguomsingi";
+"Светлое" = "Mwanga";
+"Тёмное" = "Giza";
+"Подсказки" = "Vidokezo";
+"Язык" = "Lugha";
+"Ошибка загрузки. Проверьте подключение к сети." = "Hitilafu ya upakuaji. Angalia muunganisho wako wa Mtandao";
+"Повторить попытку" = "Jaribu tena";
+"1 минута" = "Dakika 1";
+"5 минут" = "Dakika 5";
+"назад)" = "";
+"dop time " = "Dakika ";
+"(" = "";
+"минуту" = "";
+"минуты" = "";
+"минута" = "";
+"минут" = "";
+"15 минут" = "Dakika 15";
+"Включить" = "Washa";
+"Выключить" = "Kuzima";
+"Больше минуты" = "Zaidi ya dakika 1";
+"Новый сигнал" = "Ishara Mpya";
+" " = " ";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

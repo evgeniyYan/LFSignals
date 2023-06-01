@@ -1,0 +1,91 @@
+/* 
+  Localizable.strings
+  LFSignals
+
+  Created by Евгений Янушкевич on 31.05.2023.
+  
+*/
+
+"Форекс сигналы" = "Isyarat forex";
+"Избранное" = "Kegemaran";
+"Сигналы" = "Isyarat";
+"Фильтр" = "Tapis";
+"Настройки" = "Tetapan";
+"Осторожно покупать" = "Beli dengan teliti";
+"Покупать" = "Beli";
+"Активно покупать" = "Beli Aktif";
+"Продавать" = "jual";
+"Осторожно продавать" = "Jual dengan teliti";
+"Активно продавать" = "Jual Aktif";
+"Подождать" = "Tunggu";
+"Меньше минуты" = "Kurang dari 1 min";
+"Больше месяца" = "Lebih 1 bulan";
+"Назад" = "Kembali";
+"Новый" = "Baru";
+"Валюты" = "Mata wang";
+"Криптовалюты" = "Kripto";
+"Металлы и нефть" = "Logam dan minyak";
+"Акции" = "Saham";
+"Биржевые индексы" = "Indeks saham";
+"Свайп для смены типа инструмента" = "Tekan ke atas untuk menukar instrumen";
+"Клик по карточке для подробностей" = "Klik untuk butiran";
+"Таймфрейм сигнала" = "Jangka masa isyarat";
+"Время сигнала" = "Masa isyarat";
+"Таймфрейм" = "Jangka masa";
+"Купить" = "Beli";
+"Продать" = "Jual";
+"Индикаторы" = "Indikator";
+"Выбран" = "Pilih";
+"Скрыт" = "Tersembunyi";
+"Торговые инструменты" = "Instrumen perdagangan";
+"Применить" = "Tetapkan";
+"Рекомендации" = "Nasihat";
+"Вы можете уточнить список" = "Anda boleh menentukan senarai";
+"Здесь ничего нет" = "Ruangan ini kosong";
+"Время" = "Masa";
+"Использовать системное время" = "Gunakan sistem masa";
+"Обновление сигналов" = "Kemas kini isyarat";
+"Push-уведомления от избранного" = "Makluman awal daripada kegemaran";
+"Получать уведомления с рекомендациями" = "Dapatkan makluman dengan petua";
+"Оформление" = "Tema";
+"Системное" = "Default";
+"Светлое" = "Terang";
+"Тёмное" = "Gelap";
+"Подсказки" = "Petunjuk";
+"Язык" = "Bahasa";
+"Ошибка загрузки. Проверьте подключение к сети." = "Muat turun gagal. Semak sambungan Internet anda";
+"Повторить попытку" = "Cuba lagi";
+"1 минута" = "1 minit";
+"5 минут" = "5 minit";
+"dop time " = "";
+"назад)" = ")";
+"минута" = "minit";
+"минуты" = "minit";
+"минут" = "minit";
+"минуту" = "minit";
+"15 минут" = "15 minit";
+"Включить" = "Aktifkan";
+"Выключить" = "Matikan";
+"Больше минуты" = "Lebih dari 1 minit";
+"Новый сигнал" = "New Signal";
+" " = "";
+"Push-уведомления " = "Mendapat notifikasi";
+"Получайте своевременные сигналы от избранных торговых инструментов" = "Terima isyarat tepat pada masanya daripada instrumen perdagangan kegemaran anda";
+"Включить уведомления" = "Pasang notifikasi";
+"Отмена" = "Batal";
+"Сбросить всё" = "Tetapkan semula semua";
+"Ошибка загрузки. Проверьте подключение к сети. " = "Muat turun tidak berjaya. Semak sambungan Internet anda.";
+"Обновить" = "Buka semula";
+"добавлено в избранное" = "tambah kepada kegemaran";
+"Найти торговый инструмент" = "Cari instrumen perdagangan";
+"Здесь ещё нет сигналов" = "Tiada isyarat lagi";
+"Чтобы начать торговлю, на экране \"Ещё\" нажмите на кнопку \"Включить реальную торговлю\"" = "Untuk memulakan perdagangan, klik pada \"Aktifkan perdagangan sebenar\" pada skrin \"Lagi\".";
+"Чтобы начать копирование, на экране \"Ещё\" нажмите на кнопку \"Включить реальную торговлю\"" = "Untuk memulakan perdagangan salinan, klik pada \"Aktifkan perdagangan sebenar\" pada skrin \"Lagi\".";
+"Рынок открыт" = "Pasaran dibuka";
+"Информация" = "Maklumat";
+"Автообновление сигналов" = "Kemas kini isyarat secara automatik";
+"По запросу ничего не найдено" = "Tiada keputusan dijumpai";
+"Удалено из избранного" = "Buang dari Kegemaran";
+
+
+

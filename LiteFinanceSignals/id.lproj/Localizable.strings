@@ -1,0 +1,74 @@
+/* 
+  Localizable.strings
+  LFSignals
+
+  Created by Евгений Янушкевич on 31.05.2023.
+  
+*/
+
+"Форекс сигналы" = "Sinyal forex";
+"Избранное" = "Favorit";
+"Сигналы" = "Sinyal";
+"Фильтр" = "Filter";
+"Настройки" = "Pengaturan";
+"Осторожно покупать" = "Waspada beli";
+"Покупать" = "Beli ";
+"Активно покупать" = "Beli aktif";
+"Продавать" = "Jual";
+"Осторожно продавать" = "Waspada jual";
+"Активно продавать" = "Jual aktif";
+"Подождать" = "Tunggu";
+"Меньше минуты" = "Kurang dari 1 menit";
+"Больше месяца" = "Lebih dari 1 bulan";
+"Назад" = "Kembali";
+"Новый" = "Baru";
+"Валюты" = "Mata uang";
+"Криптовалюты" = "Crypto";
+"Металлы и нефть" = "Logam dan minyak";
+"Акции" = "Saham";
+"Биржевые индексы" = "Indeks saham";
+"Свайп для смены типа инструмента" = "Geser untuk ubah instrumen";
+"Клик по карточке для подробностей" = "Klik untuk rincian";
+"Таймфрейм сигнала" = "Jangka waktu sinyal";
+"Время сигнала" = "Waktu sinyal";
+"Таймфрейм" = "Jangka waktu";
+"Купить" = "Beli";
+"Продать" = "Jual";
+"Индикаторы" = "Indikator";
+"Выбран" = "Terpilih";
+"Скрыт" = "Sembunyikan";
+"Торговые инструменты" = "Instrumen trading";
+"Применить" = "Terapkan";
+"Рекомендации" = "Anjuran";
+"Вы можете уточнить список" = "Anda dapat menentukan daftar";
+"Здесь ничего нет" = "Disini kosong";
+"Время" = "Waktu";
+"Использовать системное время" = "Gunakan waktu sistem";
+"Обновление сигналов" = "Pembaruan sinyal";
+"Push-уведомления от избранного" = "Pemberitahuan pust dari favorit";
+"Получать уведомления с рекомендациями" = "Dapatkan peringatan dengan tips";
+"Оформление" = "Tampilan";
+"Системное" = "Bawaan";
+"Светлое" = "Terang";
+"Тёмное" = "Gelap";
+"Подсказки" = "Petunjuk";
+"Язык" = "Bahasa";
+"Ошибка загрузки. Проверьте подключение к сети." = "Kesalahan unduhan. Periksa koneksi internet anda";
+"Повторить попытку" = "Coba lagi";
+"1 минута" = "1 menit";
+"5 минут" = "5 menit";
+"назад)" = ")";
+"dop time " = "";
+"минута" = "menit";
+"минуты" = "menit";
+"минуту" = "menit";
+"минут" = "menit";
+"15 минут" = "15 menit";
+"Включить" = "Aktifkan";
+"Выключить" = "Matikan";
+"Больше минуты" = "lebih dari 1 menit";
+"Новый сигнал" = "New Signal";
+" " = "";
+
+
+

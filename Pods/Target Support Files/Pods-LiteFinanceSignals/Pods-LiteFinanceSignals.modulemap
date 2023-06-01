@@ -1,0 +1,6 @@
+framework module Pods_LiteFinanceSignals {
+  umbrella header "Pods-LiteFinanceSignals-umbrella.h"
+
+  export *
+  module * { export * }
+}

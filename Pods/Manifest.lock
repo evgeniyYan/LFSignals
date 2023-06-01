@@ -1,0 +1,51 @@
+PODS:
+  - Charts (4.1.0):
+    - Charts/Core (= 4.1.0)
+  - Charts/Core (4.1.0):
+    - SwiftAlgorithms (~> 1.0)
+  - CocoaLumberjack (3.8.0):
+    - CocoaLumberjack/Core (= 3.8.0)
+  - CocoaLumberjack/Core (3.8.0)
+  - Kingfisher (7.4.1)
+  - SDWebImage (5.14.2):
+    - SDWebImage/Core (= 5.14.2)
+  - SDWebImage/Core (5.14.2)
+  - SDWebImageSVGCoder (1.6.1):
+    - SDWebImage/Core (~> 5.6)
+  - SkeletonView (1.30.4)
+  - SVGKit (3.0.0):
+    - CocoaLumberjack (~> 3.0)
+  - SwiftAlgorithms (1.0.0)
+
+DEPENDENCIES:
+  - Charts
+  - Kingfisher
+  - SDWebImage
+  - SDWebImageSVGCoder
+  - SkeletonView
+  - SVGKit
+
+SPEC REPOS:
+  trunk:
+    - Charts
+    - CocoaLumberjack
+    - Kingfisher
+    - SDWebImage
+    - SDWebImageSVGCoder
+    - SkeletonView
+    - SVGKit
+    - SwiftAlgorithms
+
+SPEC CHECKSUMS:
+  Charts: 354f86803d11d9c35de280587fef50d1af063978
+  CocoaLumberjack: 78abfb691154e2a9df8ded4350d504ee19d90732
+  Kingfisher: cd762a593a61b2fbecf7645c00f9a801a3ebfc9c
+  SDWebImage: b9a731e1d6307f44ca703b3976d18c24ca561e84
+  SDWebImageSVGCoder: 6fc109f9c2a82ab44510fff410b88b1a6c271ee8
+  SkeletonView: 5a050f6411e697abd4cda0a8d767013399dccd69
+  SVGKit: 1ad7513f8c74d9652f94ed64ddecda1a23864dea
+  SwiftAlgorithms: 38dda4731d19027fdeee1125f973111bf3386b53
+
+PODFILE CHECKSUM: 19591ebf2d2f3d59349424dbc3c9d53a8206423d
+
+COCOAPODS: 1.11.3

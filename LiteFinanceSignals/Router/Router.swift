@@ -20,7 +20,6 @@ protocol RouterProtocol: RouterMain {
     func initialTabBarController()
     func showFilter()
     func showTool(customBar: CustomBarProtocol, tool: String?, arr: [AllDataModel])
-    func popToRoot()
     var views: [UIViewController]! {get set}
     func showRangePopOver(pop: UIViewController, bar: CustomBar, view: UIViewController)
     func showChildVC(customBar: CustomBarProtocol, text: String) -> UIViewController?
@@ -209,9 +208,7 @@ class Router: RouterProtocol {
         bar.view!.present(pop, animated: true)
     }
     
-    func popToRoot() {
-        
-    }
+    
     func showChildVC(customBar: CustomBarProtocol, text: String) -> UIViewController? {
         var view = UIViewController()
         switch text.localized() {

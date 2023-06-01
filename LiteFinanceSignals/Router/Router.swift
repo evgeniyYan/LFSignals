@@ -168,12 +168,16 @@ class Router: RouterProtocol {
         }
     }
     
+    
+    
     func showTool(customBar: CustomBarProtocol, tool: String?, arr: [AllDataModel]) {
         if let navigationController = navigationController {
             guard let toolViewController = assemblyBuilder?.createToolViewController(customBar: customBar, tool: tool!, router: self, arr: arr) else { return }
             navigationController.pushViewController(toolViewController, animated: true)
         }
     }
+    
+    
     
     func showRangePopOver(pop: UIViewController, bar: CustomBar, view: UIViewController) {
         pop.modalPresentationStyle = .popover
@@ -207,6 +211,8 @@ class Router: RouterProtocol {
         
         bar.view!.present(pop, animated: true)
     }
+    
+    
     
     
     func showChildVC(customBar: CustomBarProtocol, text: String) -> UIViewController? {

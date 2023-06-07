@@ -272,7 +272,7 @@ class FilterViewController: UIViewController, UIScrollViewDelegate {
         var offsetHeight = scrollViewContentHeight - screenHeight
         
         if UIScreen.main.bounds.height <= 812.0 {
-            offsetHeight = scrollViewContentHeight - screenHeight - 100.0
+            offsetHeight = scrollViewContentHeight - screenHeight - 80.0
         } else {
             offsetHeight = scrollViewContentHeight - screenHeight + 20.0
         }

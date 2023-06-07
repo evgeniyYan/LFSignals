@@ -76,7 +76,7 @@ extension TabBarViewController: TabBarProtocol {
         
         if !UserDefaults.standard.bool(forKey: "alertPush") {
             
-            PushNotification.notificationCenter.getNotificationSettings { settings in
+            PushNotification().notificationCenter.getNotificationSettings { settings in
                 switch settings.authorizationStatus {
                 case .authorized:
                     return
@@ -85,7 +85,7 @@ extension TabBarViewController: TabBarProtocol {
                    // self.presentCameraSettings()
                     return
                 case .notDetermined:
-                    PushNotification.notificationCenter.requestAuthorization(options: [.alert, .sound]) { didAllow, error in
+                    PushNotification().notificationCenter.requestAuthorization(options: [.alert, .sound, .badge]) { didAllow, error in
 
                         if didAllow == true {
                             DispatchQueue.main.async {

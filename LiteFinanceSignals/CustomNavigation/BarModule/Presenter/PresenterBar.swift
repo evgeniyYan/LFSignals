@@ -14,6 +14,7 @@ protocol CustomBarProtocol: AnyObject {
     init(view: UIViewController, title: String, filterButton: Bool, searchButton: Bool, rangeButton: Bool, router: RouterProtocol)
     func updateTitleRange(text: String)
     func onlyUpdateTitleRange(text: String)
+    func allFade()
 }
 
 

@@ -14,7 +14,6 @@ class UserDefault {
         do {
             let encodedData = try JSONEncoder().encode(data)
             UserDefaults.standard.set(encodedData, forKey: key)
-            print("encodedData \(encodedData)")
         } catch {
             print(error)
         }

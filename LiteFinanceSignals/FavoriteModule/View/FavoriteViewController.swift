@@ -43,10 +43,12 @@ class FavoriteViewController: UIViewController {
         view.backgroundColor = .customBGViewController()
         super.viewDidLoad()
         
-        var mass = presenter.updateTools!
+        let mass = presenter.updateTools!
         
         tableView.delegate = self
         tableView.dataSource = self
+        
+        //UNUserNotificationCenter.current().delegate = self
         
         for i in 0..<mass.count {
             let item = mass[i]
@@ -178,7 +180,9 @@ extension FavoriteViewController: FavoriteProtocol {
             if allNames.isEmpty {
                 emptyLabel.isHidden = false
             } else {
-                emptyLabel.isHidden = true
+                DispatchQueue.main.async {
+                    self.emptyLabel.isHidden = true
+                }
             }
         //}
         
@@ -188,3 +192,10 @@ extension FavoriteViewController: FavoriteProtocol {
     }
     
 }
+
+
+//extension FavoriteViewController: UNUserNotificationCenterDelegate {
+//    func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
+//        completionHandler([.alert])
+//    }
+//}

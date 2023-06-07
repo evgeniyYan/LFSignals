@@ -23,8 +23,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate, UNUserNotificationCente
         let nav = UINavigationController()
         
         
-        
-        
         if !UserDefaults.standard.bool(forKey: "alertPush") {
             UserDefaults.standard.set(true, forKey: UserSettings.boolSkeleton )
             UserDefaults.standard.set(TimeZoneRange.arr, forKey: UserSettings.timeZoneRange)

@@ -32,7 +32,7 @@ class SignalsViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = .customBGViewController()
         //UserDefaults.standard.set(TypeTools.checkInType, forKey: UserSettings.typeTools)
-        var arr = UserDefaults.standard.array(forKey: UserSettings.typeTools) as! [String]
+        let arr = UserDefaults.standard.array(forKey: UserSettings.typeTools) as! [String]
         if arr.isEmpty {
         //if UserDefault.decodableData(key: UserSettings.typeTools).isEmpty {
             //if TypeTools.checkInType.isEmpty {
@@ -56,6 +56,8 @@ class SignalsViewController: UIViewController {
         collectionView.dataSource = self
         collectionView.backgroundColor = .clear
         
+       // UNUserNotificationCenter.current().delegate = self
+        
         let standartAppearance = UINavigationBarAppearance()
         standartAppearance.backgroundColor = .clear
         standartAppearance.shadowColor = .clear
@@ -77,9 +79,23 @@ class SignalsViewController: UIViewController {
         }
         
         Timer.scheduledTimer(withTimeInterval: 15 * 60, repeats: true) { _ in
+            print("start localPush()")
             self.presenter.localPush()
         }
         
+        
+        NotificationCenter.default.addObserver(self, selector: #selector(hiddenCustomBarSearch), name: UIApplication.willResignActiveNotification, object: nil)
+        
+    }
+    
+    
+    deinit {
+        NotificationCenter.default.removeObserver(self)
+    }
+    
+    
+    @objc func hiddenCustomBarSearch() {
+        presenter.allFadeObj()
     }
     
     override func viewDidLayoutSubviews() {
@@ -279,3 +295,10 @@ extension SignalsViewController: UITextFieldDelegate {
         return string == numberFiltered
     }
 }
+
+
+//extension SignalsViewController: UNUserNotificationCenterDelegate {
+//    func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
+//        completionHandler([.alert])
+//    }
+//}

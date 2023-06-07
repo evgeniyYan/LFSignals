@@ -7,11 +7,15 @@
 
 import Foundation
 import UserNotifications
+import UIKit
 
 
-class PushNotification {
-    static let notificationCenter = UNUserNotificationCenter.current()
-    static func dispatchNotification(nameTool: String, recommend: String, timeZone: String, timeInterval: TimeInterval, identifier: String) {
+class PushNotification: NSObject, UNUserNotificationCenterDelegate {
+    let notificationCenter = UNUserNotificationCenter.current()
+    let options: UNAuthorizationOptions = [.alert, .sound, .badge]
+    
+    
+    func dispatchNotification(nameTool: String, recommend: String, timeZone: String, timeInterval: TimeInterval, identifier: String) {
         //let identifier = "slangisecnanifetil.practiceProtocol"
         let title = "Новый сигнал".localized()
         let body = "\(nameTool): \(recommend) \(timeZone)"
@@ -20,6 +24,11 @@ class PushNotification {
        // let isDaily = true
         
         
+//        notificationCenter.requestAuthorization(options: options) { success, error in
+//            if !success {
+//                print("User has declined notifications")
+//            }
+//        }
         
         let content = UNMutableNotificationContent()
         content.title = title
@@ -33,12 +42,39 @@ class PushNotification {
         
         let trigger = UNTimeIntervalNotificationTrigger(timeInterval: timeInterval, repeats: false)
         let request = UNNotificationRequest(identifier: identifier, content: content, trigger: trigger)
-        notificationCenter.removePendingNotificationRequests(withIdentifiers: [identifier])
-        notificationCenter.add(request)
+        //self.notificationCenter.removePendingNotificationRequests(withIdentifiers: [identifier])
+        self.notificationCenter.add(request) { error in
+            if let error = error {
+                print("error local notification \(error.localizedDescription)")
+            } else {
+                print("enable send notice")
+            }
+        }
+        
     }
     
-    static func turnOffNotifications(identifier: String) {
-        //UNUserNotificationCenter.current().removePendingNotificationRequests(withIdentifiers: [identifier])
-        UNUserNotificationCenter.current().removeAllDeliveredNotifications()
+    func turnOffNotifications(identifier: String) {
+        self.notificationCenter.removePendingNotificationRequests(withIdentifiers: [identifier])
+        self.notificationCenter.removeDeliveredNotifications(withIdentifiers: [identifier])
+        self.notificationCenter.removeAllDeliveredNotifications()
+        self.notificationCenter.removeAllPendingNotificationRequests()
+        
+        self.notificationCenter.requestAuthorization { success, error in
+            if error == nil {
+                print("error cancel")
+            }
+            
+            print("success cancel notice \(success)")
+        }
     }
+    
+    
+//    func userNotificationCenter(_ center: UNUserNotificationCenter,
+//                                willPresent notification: UNNotification,
+//                                withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
+//        
+//        completionHandler([.alert,.sound])
+//    }
+    
+    
 }

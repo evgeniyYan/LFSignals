@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import UserNotifications
 
 class SettingsViewController: UIViewController {
     var presenter: SettingsPresenterProtocol!
@@ -28,11 +29,13 @@ class SettingsViewController: UIViewController {
     var designView: DesignView!
     
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .customBGViewController()
         scrollView.backgroundColor = .customBGViewController()
         
+        //UNUserNotificationCenter.current().delegate = self
        
         
         pushSwitch.addTarget(self, action: #selector(toggleSWitchPush), for: .valueChanged)
@@ -60,9 +63,36 @@ class SettingsViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         if pushSwitch.isOn {
-            presenter.signalsPresenter.localPush()
+//            let center = PushNotification().notificationCenter
+//            center.delegate = self
+//
+//            let content = UNMutableNotificationContent()
+//            content.title = "Название уведомления"
+//            content.body = "Текст уведомления"
+//            content.sound = UNNotificationSound.default
+//
+//            let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 60, repeats: true)
+//
+//
+//            let request = UNNotificationRequest(identifier: "Identifier", content: content, trigger: trigger)
+//
+//
+//            center.add(request) { (error) in
+//                if let error = error {
+//                    print("Ошибка при добавлении уведомления: \(error.localizedDescription)")
+//                } else {
+//                    print("Уведомление успешно добавлено")
+//                }
+//            }
+            
+           // presenter.signalsPresenter.localPush()
+            
         } else {
-            presenter.signalsPresenter.turnOffLocalPush()
+//            let center = PushNotification().notificationCenter
+//            center.removeAllPendingNotificationRequests()
+            //center.removeAllDeliveredNotifications()
+           presenter.signalsPresenter.turnOffLocalPush()
+            
         }
     }
     
@@ -114,19 +144,48 @@ class SettingsViewController: UIViewController {
         
         if sender.isOn {
             UserDefaults.standard.set(true, forKey: UserSettings.pushSwitcher)
-//            let content = UNMutableNotificationContent()
-//            content.title = "You have tasks to complete!"
-//            content.subtitle = ""
-//            content.body = "Open the task manager to see which tasks need completion"
-//            let alarmTime = Date().addingTimeInterval(60)
-//            let components = Calendar.current.dateComponents([.weekday, .hour, .minute], from: Date().addingTimeInterval(10))
-//            let trigger = UNCalendarNotificationTrigger(dateMatching: components, repeats: true)
-//            let request = UNNotificationRequest(identifier: "taskreminder", content: content, trigger: trigger)
-//            UNUserNotificationCenter.current().add(request, withCompletionHandler: nil)
-            presenter.signalsPresenter.localPush()
+            
+            if UserDefaults.standard.array(forKey: UserSettings.settingsRecommend)!.isEmpty {
+                noticeView.arrButton.first?.WhiteTrue()
+                UserDefaults.standard.set([noticeView.arrButton.first!.titleLabel!.text], forKey: UserSettings.settingsRecommend)
+            }
+            
+            //UIApplication.shared.registerForRemoteNotifications()
+            presenter.runPushNotice { answer in
+                if answer {
+                    self.presenter.signalsPresenter.localPush()
+                } else {
+                    let alertController = UIAlertController(title: "Push-уведомления".localized(), message: "Получайте своевременные сигналы от избранных торговых инструментов".localized(), preferredStyle: .alert)
+                    let settignsAction = UIAlertAction(title: "Включить уведомления".localized(), style: .default) { _ -> Void in
+                        guard let settingsUrl = URL(string: UIApplication.openSettingsURLString) else {return}
+                        
+                        if UIApplication.shared.canOpenURL(settingsUrl) {
+                            UIApplication.shared.open(settingsUrl) { success in
+                                self.presenter.signalsPresenter.localPush()
+                            }
+                        }
+                    }
+                    
+                    let cancelAction = UIAlertAction(title: "Отмена".localized(), style: .cancel)
+                    alertController.addAction(cancelAction)
+                    alertController.addAction(settignsAction)
+                    
+                    DispatchQueue.main.async {
+                        self.present(alertController, animated: true)
+                    }
+                }
+            }
+           
+           // presenter.signalsPresenter.localPush()
+            
         } else {
             UserDefaults.standard.set(false, forKey: UserSettings.pushSwitcher)
             presenter.signalsPresenter.turnOffLocalPush()
+            //UIApplication.shared.unregisterForRemoteNotifications()
+           // let center = PushNotification().notificationCenter
+//            center.delegate = self
+//            center.removeAllDeliveredNotifications()
+            //center.removeAllPendingNotificationRequests()
         }
     }
     
@@ -194,3 +253,10 @@ extension SettingsViewController: SettingsProtocol {
     }
    
 }
+
+//extension SettingsViewController: UNUserNotificationCenterDelegate {
+//    func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
+//        completionHandler([.alert])
+//    }
+//
+//}

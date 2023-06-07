@@ -91,7 +91,6 @@ class CustomBar: UINavigationBar, CustomBarProtocol {
         } else {
             let saveArr = UserDefaults.standard.array(forKey: UserSettings.timeZoneRange)! as! [String]
             print(UserDefaults.standard.array(forKey: UserSettings.timeZoneRange)! as! [String])
-            print("saveArr.first \(saveArr.first)")
             titleRangeButton.text = saveArr.first
 //            UserDefaults.standard.set(titleRangeButton.text, forKey: UserSettings.timeZoneSignals)
 //            UserDefaults.standard.set(titleRangeButton.text, forKey: UserSettings.timeZoneFavorite)
@@ -206,7 +205,7 @@ class CustomBar: UINavigationBar, CustomBarProtocol {
         if searchVC.searchBar.alpha == 0.0 {
             if LocaleLayout.getLocale() == "fa" || LocaleLayout.getLocale() == "ar" {
                 UIView.animate(withDuration: 0.5, delay: 0, options: .curveEaseInOut) {
-                    self.titleNav.frame.origin = CGPoint(x: self.frame.width - self.titleNav.frame.width - 15, y: 40)
+                    self.titleNav.frame.origin = CGPoint(x: self.frame.width - self.titleNav.frame.width - 15, y: 30)
                     self.filterButton.alpha = 0.0
                     self.searchButton.alpha = 0.0
                     self.rangeButton.alpha = 0.0
@@ -214,7 +213,7 @@ class CustomBar: UINavigationBar, CustomBarProtocol {
                 }
             } else {
                 UIView.animate(withDuration: 0.5, delay: 0, options: .curveEaseInOut) {
-                    self.titleNav.frame.origin = CGPoint(x: 16, y: 40)
+                    self.titleNav.frame.origin = CGPoint(x: 16, y: 30)
                     self.filterButton.alpha = 0.0
                     self.searchButton.alpha = 0.0
                     self.rangeButton.alpha = 0.0
@@ -229,7 +228,7 @@ class CustomBar: UINavigationBar, CustomBarProtocol {
         
         if LocaleLayout.getLocale() == "fa" || LocaleLayout.getLocale() == "ar" {
             UIView.animate(withDuration: 0.5, delay: 0, options: .curveEaseInOut) {
-                self.titleNav.frame.origin = CGPoint(x: self.frame.width - self.titleNav.frame.width - 15, y: 85)
+                self.titleNav.frame.origin = CGPoint(x: self.frame.width - self.titleNav.frame.width - 15, y: UIScreen.main.bounds.height / 6.5 - 55)
                 self.filterButton.alpha = 1.0
                 self.rangeButton.alpha = 1.0
                 self.searchButton.alpha = 1.0
@@ -237,7 +236,7 @@ class CustomBar: UINavigationBar, CustomBarProtocol {
             }
         } else {
             UIView.animate(withDuration: 0.5, delay: 0, options: .curveEaseInOut) {
-                self.titleNav.frame.origin = CGPoint(x: 16, y: 85)
+                self.titleNav.frame.origin = CGPoint(x: 16, y: UIScreen.main.bounds.height / 6.5 - 55)
                 self.filterButton.alpha = 1.0
                 self.rangeButton.alpha = 1.0
                 self.searchButton.alpha = 1.0
@@ -246,6 +245,7 @@ class CustomBar: UINavigationBar, CustomBarProtocol {
         }
         
     }
+    
 }
 
 extension CustomBar: UIPopoverPresentationControllerDelegate {

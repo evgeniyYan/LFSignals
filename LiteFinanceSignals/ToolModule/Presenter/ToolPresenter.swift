@@ -329,10 +329,9 @@ class ToolPresenter: ToolPresenterProtocol {
             for i in 0..<self.arr.count {
                 FavotiteTools.favoriteArr.append(self.arr[i])
             }
-            print("FavotiteTools.favoriteArr \(FavotiteTools.favoriteArr.count)")
+           
             UserDefault.encodableData(data: FavotiteTools.favoriteArr, key: UserSettings.favoriteTool)
-            print("UserDefault.encodableData(data: FavotiteTools.favoriteArr, key: UserSettings.favoriteTool) \(UserDefault.encodableData(data: FavotiteTools.favoriteArr, key: UserSettings.favoriteTool))")
-            //UserDefaults.standard.set(FavotiteTools.favoriteArr, forKey: UserSettings.favoriteTool)
+            
             newImage = UIImage(systemName: "star.fill")!
         }
         //let _ = router.assemblyBuilder?.createFavoriteViewController(tools: FavotiteTools.favoriteArr, router: self.router, timeZone: self.router.favoriteTimeZone)

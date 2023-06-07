@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import UserNotifications
 
 protocol SettingsProtocol: AnyObject {
     func setChildView(notice: NoticeView, update: UpdateView, hints: HintsView, design: DesignView)
@@ -24,6 +25,7 @@ protocol SettingsPresenterProtocol: AnyObject {
     func toggleHintsView(switcher: CustomSwitch)
     func delegateTimerRepeat(text: String)
     var signalsPresenter: SignalsPresenterProtocol! {get set}
+    func runPushNotice(completion: @escaping(Bool) -> Void)
 }
 
 
@@ -136,7 +138,7 @@ class SettingsPresenter: SettingsPresenterProtocol {
             switcher.statusOn()
             UIApplication.shared.unregisterForRemoteNotifications()
             UNUserNotificationCenter.current().removeAllPendingNotificationRequests()
-            PushNotification.notificationCenter.removeAllPendingNotificationRequests()
+            PushNotification().notificationCenter.removeAllPendingNotificationRequests()
             block.alpha = 0.5
         } else {
             block.alpha = 1.0
@@ -171,6 +173,43 @@ class SettingsPresenter: SettingsPresenterProtocol {
             UserDefaults.standard.set(false, forKey: UserSettings.hintsSwitcher)
             router?.delegateHintsBool(hidden: false)
             router?.setHintsBool()
+        }
+    }
+    
+    
+//    func runPushNotice() -> UIAlertController {
+//        var alertVC = UIAlertController()
+//        PushNotification().notificationCenter.requestAuthorization(options: [.alert, .sound, .badge]) { success, error in
+//            if error == nil {
+//                print("success \(success)")
+//            }
+//
+//            if !success {
+//                PushNotification().notificationCenter.getNotificationSettings { settings in
+//                    if settings.authorizationStatus != .authorized {
+//
+//                    }
+//
+//                }
+//            } else {
+//                alertVC = UIAlertController()
+//            }
+//        }
+//
+//        return alertVC
+//    }
+    
+    func runPushNotice(completion: @escaping(Bool) -> Void) {
+        PushNotification().notificationCenter.requestAuthorization(options: [.alert, .sound, .badge]) { success, error in
+            if error == nil {
+                print("success \(success)")
+            }
+            
+            if success {
+                completion(true)
+            } else {
+                completion(false)
+            }
         }
     }
 }

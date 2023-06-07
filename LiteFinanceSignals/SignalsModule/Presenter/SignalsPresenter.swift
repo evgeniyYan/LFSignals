@@ -61,6 +61,7 @@ protocol SignalsPresenterProtocol: AnyObject {
     func getStatusRecommend(number: Int64) -> String
     func localPush()
     func turnOffLocalPush()
+    func allFadeObj()
 }
 
 
@@ -282,16 +283,23 @@ class SignalsPresenter: SignalsPresenterProtocol {
             for n in 0..<saveRecommend!.count {
                 let saveArr = saveRecommend![n] as! String
                 if recommend == saveArr && arr.timeFrame == self.router.favoriteTimeZone{
-                    PushNotification.dispatchNotification(nameTool: arr.title, recommend: saveArr, timeZone: arr.timeFrame, timeInterval: 10, identifier: arr.title)
+                    if UserDefaults.standard.bool(forKey: UserSettings.pushSwitcher) {
+                        PushNotification().dispatchNotification(nameTool: arr.title, recommend: saveArr, timeZone: arr.timeFrame, timeInterval: 15 * 60, identifier: arr.title)
+                    }
+                    
                     self.identifierPush = arr.title
                 }
             }
         }
     }
     
+    @objc func allFadeObj() {
+        self.customBar.allFade()
+    }
+    
     
     func turnOffLocalPush() {
-        PushNotification.turnOffNotifications(identifier: self.identifierPush)
+        PushNotification().turnOffNotifications(identifier: self.identifierPush)
     }
     
     func timerUpdate(time: TimeInterval) {
